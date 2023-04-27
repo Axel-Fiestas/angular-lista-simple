@@ -1,0 +1,11 @@
+<h2>Agregar Anime Nuevo</h2>
+<form >
+  <input type="text" [(ngModel)]="newAnime.name" name="name" placeholder="Name" >
+  <input type="text" [(ngModel)]="newAnime.genre" name="genre" placeholder="Genre">
+  <input type="number" [(ngModel)]="newAnime.year" name="year" placeholder="Year">
+
+  <button (click)="emitAnime()" type="submit">
+    Agregar Anime
+  </button>
+</form>
+

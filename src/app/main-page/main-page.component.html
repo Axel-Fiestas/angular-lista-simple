@@ -1,0 +1,4 @@
+<h1>Anime list</h1>
+<hr>
+<app-list (emisor)="deleteAnimeList($event)" [arrayAnime]="getAnimeList()"></app-list>
+<app-ad-anime (emisor)="addAnimeList($event)" ></app-ad-anime>

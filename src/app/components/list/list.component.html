@@ -1,0 +1,10 @@
+
+<ul>
+
+  <li *ngFor="let animeSerie of arrayAnime; let i=index">
+    {{i+1}}.{{animeSerie.name}}-{{animeSerie.genre}}-{{animeSerie.year}}
+
+    <button (click)="emisorDelete(i)">X</button>
+  </li>
+
+</ul>
